@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 header{
 	background-color: #A7C7E7;
@@ -15,4 +17,52 @@ h1, h2{
 header h1{
 	color: white;
 
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 30px;
+	color: #953553;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: #A7C7E7;
+}
+a:hover{
+	color: #953553;
+}
+
+footer{
+	background-color: #A7C7E7;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	color: #953553;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #AB9FDA;
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 0;
 }
